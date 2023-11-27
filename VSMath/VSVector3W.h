@@ -5,7 +5,7 @@
 namespace VSEngine2
 {
 	class VSMatrix3X3W;
-	//4ÏòÁ¿ ÑÕÉ«
+	//4å‘é‡ é¢œè‰²
 	class  VSMATH_API VSVector3W 
 	{
 	public:

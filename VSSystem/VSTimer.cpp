@@ -38,7 +38,7 @@ int VSTimer::GetRandSeed()
 	return ((LARGE_INTEGER*)&m_int64TimeTickStartCounts)->LowPart;
 }
 double VSTimer::GetGamePlayTime()
-{  //返回已进行的时间,单位毫秒
+{  //杩斿洖宸茶繘琛岀殑鏃堕棿,鍗曚綅姣
 	__int64 int64TimeCurrentCounts;
 	if(m_bUseLargeTime)
 	{
@@ -47,7 +47,7 @@ double VSTimer::GetGamePlayTime()
 	}
 	else
 	{
-		return ((timeGetTime() - m_ulTimeStart));  //timeGetTime函数返回的时间单位为毫秒
+		return ((timeGetTime() - m_ulTimeStart));  //timeGetTime鍑芥暟杩斿洖鐨勬椂闂村崟浣嶄负姣
 	}
 }
 

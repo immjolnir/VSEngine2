@@ -7,10 +7,10 @@ namespace VSEngine2
 class VSSYSTEM_API VSTimer
 {
 private:
-	bool m_bUseLargeTime;   //Ê¹ÓÃ´óÊ±¼ä±êÖ¾
-	 __int64 m_int64OneSecondTicks;  //Ò»ÃëÄÚµÄµÎ´ð´ÎÊý
-	 __int64 m_int64TimeTickStartCounts;  //¿ªÊ¼µÄµÎ´ð¼ÆÊýÖµ
-	unsigned long m_ulTimeStart;  //timeGetTime¿ªÊ¼Ê±¼ä
+	bool m_bUseLargeTime;   //ä½¿ç”¨å¤§æ—¶é—´æ ‡å¿—
+	 __int64 m_int64OneSecondTicks;  //ä¸€ç§’å†…çš„æ»´ç­”æ¬¡æ•°
+	 __int64 m_int64TimeTickStartCounts;  //å¼€å§‹çš„æ»´ç­”è®¡æ•°å€¼
+	unsigned long m_ulTimeStart;  //timeGetTimeå¼€å§‹æ—¶é—´
 	int m_iFrameCount;
 	double m_fFPS;
 	double m_fTime,m_fLastFPSTime,m_fTimeSlice;

@@ -1,24 +1,24 @@
 
-·´Éämaterialscene render
+åå°„materialscene render
 SSR
 
 
 
-texture stream vstexture ÖĞ¼ÇÂ¼Ã¿¸ölevelÔÚÎÄ¼şµÄÎ»ÖÃºÍ´óĞ¡¡£
+texture stream vstexture ä¸­è®°å½•æ¯ä¸ªlevelåœ¨æ–‡ä»¶çš„ä½ç½®å’Œå¤§å°ã€‚
 
 
-×Ô·¢¹â ºÍ Í¸Ã÷ ÎïÌåµÄ flag
+è‡ªå‘å…‰ å’Œ é€æ˜ ç‰©ä½“çš„ flag
 
 void FShaderCompilingThreadManager::FinishWorkerCompile(INT BatchedJobId, UINT ThreadId)
 
-shader Ô¤±àÒë ºÍ shader hash
+shader é¢„ç¼–è¯‘ å’Œ shader hash
 
 
 
-geometry IO Ã»ÓĞ ´æ´¢ boneNodeÖ±½Ó´æ´¢µÄ boneName Clone ºÍ postload ¶¼ÒªÁ´½Ó£¨very low £©
+geometry IO æ²¡æœ‰ å­˜å‚¨ boneNodeç›´æ¥å­˜å‚¨çš„ boneName Clone å’Œ postload éƒ½è¦é“¾æ¥ï¼ˆvery low ï¼‰
 
 VS2012 
 
 2012 DEBUG INFO
 
-material ±à¼­Æ÷
+material ç¼–è¾‘å™¨

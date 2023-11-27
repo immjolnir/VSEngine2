@@ -259,7 +259,7 @@ FORCEINLINE VSREAL ClampAngle(VSREAL AngleDegrees, VSREAL MinAngleDegrees, VSREA
 FORCEINLINE int VSRand() { return rand(); }
 FORCEINLINE void VSRandInit(int Seed) { srand(Seed); }
 FORCEINLINE float VSFRand() { return VSRand() / (float)RAND_MAX; }
-//初始化CPU信息
+//鍒濆鍖朇PU淇℃伅
 bool VSMATH_API VSInitCPU(void);
 bool VSMATH_API VSInitMath();
 void VSMATH_API VSInitCRCTable();

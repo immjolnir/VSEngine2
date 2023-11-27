@@ -1009,7 +1009,7 @@ bool VSWindowApplication::CreateAppWindow()
 		AdjustWindowRect(&window_rect, m_dwWindowedStyle, GetMenu(m_MainHwnd) != NULL);
 		int NewWidth = window_rect.right - window_rect.left;
 		int NewHeight = window_rect.bottom - window_rect.top;
-		//移动窗口
+		//绉诲姩绐楀彛
 		MoveWindow(m_MainHwnd,
 			0, // x position
 			0, // y position
@@ -1034,7 +1034,7 @@ void VSWindowApplication::ChangeScreenSize(unsigned int uiWidth, unsigned int ui
 			SetWindowLong(m_MainHwnd, GWL_STYLE, m_dwFullscreenStyle);
 			SetWindowPos(m_MainHwnd, HWND_TOP, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_NOZORDER | SWP_FRAMECHANGED);
 
-			//移动窗口
+			//绉诲姩绐楀彛
 			MoveWindow(m_MainHwnd,
 				0, // x position
 				0, // y position
@@ -1049,7 +1049,7 @@ void VSWindowApplication::ChangeScreenSize(unsigned int uiWidth, unsigned int ui
 			SetWindowLong(m_MainHwnd, GWL_STYLE, m_dwWindowedStyle);
 			unsigned int NewWidth = window_rect.right - window_rect.left;
 			unsigned int NewHeight = window_rect.bottom - window_rect.top;
-			//移动窗口
+			//绉诲姩绐楀彛
 			MoveWindow(m_MainHwnd,
 				0, // x position
 				0, // y position
